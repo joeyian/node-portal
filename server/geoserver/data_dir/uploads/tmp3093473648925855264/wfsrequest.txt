@@ -1,0 +1,1 @@
+http://geoserver.namria.gov.ph:8080/geoserver/geoportal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geoportal:adminbnd_prov&outputFormat=SHAPE-ZIP

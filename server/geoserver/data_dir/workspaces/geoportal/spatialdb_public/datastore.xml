@@ -1,0 +1,31 @@
+<dataStore>
+  <id>DataStoreInfoImpl-2e0e5893:14477393f2e:-7f38</id>
+  <name>spatialdb_public</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-2e0e5893:14477393f2e:-7f3a</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="port">5432</entry>
+    <entry key="Connection timeout">20</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="encode functions">false</entry>
+    <entry key="namespace">http://www.geoportal.gov.ph/geoportal</entry>
+    <entry key="schema">public</entry>
+    <entry key="create database">false</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="min connections">1</entry>
+    <entry key="host">localhost</entry>
+    <entry key="validate connections">true</entry>
+    <entry key="max connections">10</entry>
+    <entry key="database">spatialdb</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Max open prepared statements">50</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="user">postgres</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

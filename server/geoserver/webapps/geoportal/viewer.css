@@ -1,0 +1,50 @@
+/* styles for geoserver featureinfo */
+.olImageLoadError { 
+    /* when OL encounters a 404, don't display the pink image */
+    display: none !important;
+} 
+
+.pgp-logo {
+	width: 30px;
+	float: left;
+	padding: 5 5 5 5;
+}
+.pgp-header {
+	background-color: #373737;
+	border-bottom: 1px solid #16191D;
+	color: white;
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px;
+	text-align: left;
+	text-shadow: 0 1px 0 #16191D;
+}
+
+
+table.featureInfo, table.featureInfo td, table.featureInfo th {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+    padding: .2em .1em;
+}
+table.featureInfo th {
+    padding: .2em .2em;
+    font-weight: bold;
+    background: #eee;
+}
+table.featureInfo td{
+    background: #fff;
+}
+table.featureInfo tr.odd td{
+    background: #eee;
+}
+table.featureInfo caption{
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2em .2em;
+}

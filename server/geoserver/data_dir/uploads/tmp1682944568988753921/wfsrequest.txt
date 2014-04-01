@@ -1,0 +1,1 @@
+http://202.90.149.232:80/geoserver/geoportal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geoportal:doh_hospitalrhu&maxFeatures=50&outputFormat=SHAPE-ZIP

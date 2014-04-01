@@ -1,0 +1,51 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--711f9726:144771a83bd:-7faf</id>
+  <name>adminbnd_prov</name>
+  <nativeName>adminbnd_prov</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--613bf793:14477116f8c:-7ffe</id>
+  </namespace>
+  <title>Agency: Admin Boundary</title>
+  <keywords>
+    <string>adminbnd_prov</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;PRS92&quot;, &#xd;
+  DATUM[&quot;Philippine Reference System 1992&quot;, &#xd;
+    SPHEROID[&quot;Clarke 1866&quot;, 6378206.4, 294.9786982138982, AUTHORITY[&quot;EPSG&quot;,&quot;7008&quot;]], &#xd;
+    TOWGS84[-127.62, -67.24, -47.04, -3.068, -4.903, -1.578, -1.06], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;6683&quot;]], &#xd;
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+  UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+  AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;4683&quot;]]</nativeCRS>
+  <srs>EPSG:4683</srs>
+  <nativeBoundingBox>
+    <minx>116.92852924200008</minx>
+    <maxx>126.60415091300001</maxx>
+    <miny>4.642239567000047</miny>
+    <maxy>20.93730880100003</maxy>
+    <crs>EPSG:4683</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>116.92945761044908</minx>
+    <maxx>126.60530535464011</maxx>
+    <miny>4.639947277004027</miny>
+    <maxy>20.934104785919388</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, &#xd;
+  DATUM[&quot;WGS84&quot;, &#xd;
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], &#xd;
+  PRIMEM[&quot;Greenwich&quot;, 0.0], &#xd;
+  UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+  AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-108122b5:14477174565:-8000</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

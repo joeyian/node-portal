@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<userRegistry version="1.0" xmlns="http://www.geoserver.org/security/users">
+  <users>
+    <user enabled="true" name="admin" password="plain:admin" />
+    <user enabled="true" name="fat" password="plain:fat" />
+    <user enabled="true" name="gerie" password="plain:gerie" />
+  </users>
+  <groups>
+    <group enabled="true" name="AGENCY_EDITOR_GROUP">
+      <member username="fat" />
+    </group>
+    <group enabled="true" name="PUBLIC_VIEWER_GROUP">
+      <member username="gerie" />
+    </group>
+  </groups>
+</userRegistry>

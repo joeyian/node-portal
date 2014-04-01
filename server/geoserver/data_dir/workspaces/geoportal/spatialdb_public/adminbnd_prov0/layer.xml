@@ -1,0 +1,17 @@
+<layer>
+  <name>adminbnd_prov0</name>
+  <id>LayerInfoImpl-5b4bc957:1449b1d2c61:-7f1a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-5b4bc957:1449b1d2c61:-7f1b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5b4bc957:1449b1d2c61:-7f1c</id>
+  </resource>
+  <queryable>true</queryable>
+  <opaque>false</opaque>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

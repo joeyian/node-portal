@@ -1,0 +1,117 @@
+postgres cannot access the server configuration file "D:/ghelo/projects/pgp-v2/tools/postgres-postgis/postgresql-9.2.3-1-windows-x64-binaries/pgsql/data/postgresql.conf": No such file or directory
+LOG:  database system was shut down at 2013-02-13 11:27:11 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-02-13 11:29:24 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-02-13 11:37:23 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-02-13 14:19:55 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "states_the_geom_gist" ON "public"."states" using gist ("the_geom" gist_geometry_ops);
+	COMMIT;
+	
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "states_the_geom_gist" ON "public"."states" using gist ("the_geom" gist_geometry_ops);
+	COMMIT
+WARNING:  there is no transaction in progress
+ERROR:  relation "public.gt_pk_metadata" does not exist at character 15
+STATEMENT:  SELECT * FROM public.GT_PK_METADATA
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT "gid" FROM "public"."states" WHERE 0=1
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_SRID("the_geom") FROM "public"."states" WHERE the_geom IS NOT NULL LIMIT 1
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "poi_the_geom_gist" ON "public"."poi" using gist ("the_geom" gist_geometry_ops);
+	COMMIT;
+	
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "poi_the_geom_gist" ON "public"."poi" using gist ("the_geom" gist_geometry_ops);
+	COMMIT;
+	
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "poi_the_geom_gist" ON "public"."poi" using gist ("the_geom" gist_geometry_ops)
+ERROR:  relation "public.gt_pk_metadata" does not exist at character 15
+STATEMENT:  SELECT * FROM public.GT_PK_METADATA
+ERROR:  permission denied for relation poi
+STATEMENT:  SELECT "gid" FROM "public"."poi" WHERE 0=1
+ERROR:  permission denied for relation poi
+STATEMENT:  SELECT ST_SRID("the_geom") FROM "public"."poi" WHERE the_geom IS NOT NULL LIMIT 1
+ERROR:  stats for "poi.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'poi', 'the_geom'))))
+ERROR:  permission denied for relation poi
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."poi"
+ERROR:  operator class "gist_geometry_ops" does not exist for access method "gist"
+STATEMENT:  CREATE INDEX "states_the_geom_gist" ON "public"."states" using gist ("the_geom" gist_geometry_ops);
+	COMMIT;
+	
+ERROR:  schema "schema" does not exist
+STATEMENT:  CREATE INDEX "index_name" ON "schema"."table_name" using gist ("geom_column")
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  permission denied for relation states
+STATEMENT:  SELECT ST_AsText(ST_Force_2D(ST_Envelope(ST_Extent("the_geom"::geometry)))) FROM "public"."states"
+ERROR:  relation "public.gt_pk_metadata" does not exist at character 15
+STATEMENT:  SELECT * FROM public.GT_PK_METADATA
+ERROR:  stats for "states.the_geom" do not exist
+STATEMENT:  select ST_AsText(ST_force_2d(ST_Envelope(ST_Estimated_Extent('public', 'states', 'the_geom'))))
+ERROR:  relation "poi" does not exist at character 30
+STATEMENT:  select * from (select * from poi) as "vtable" where 1 = 0
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  could not receive data from client: No connection could be made because the target machine actively refused it.
+	
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2013-02-15 19:35:57 HKT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
